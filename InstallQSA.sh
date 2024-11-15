@@ -173,7 +173,7 @@ dirPATH=$(zenity --file-selection   --directory --title="SoftEduQSA install Choo
 
 dirDESK=$(zenity --file-selection   --directory --title="SoftEduQSA install choose a Desktop Folder" --width=400 --height=200)
 
-tarFILE="SoftEduQSA.tar"
+tarFILE="QSA.tar"
 
 pwd
 echo "Installation folder: $dirPATH"
@@ -181,10 +181,10 @@ echo "Path to Desktop folder: $dirDESK"
 echo "Downloading SoftEduQSA source files: ... "
 
 ####FALTA CAMBIAR CUANDO SE SUBA
-echo "wget https://github.com/fisinforgh/SoftEduQSA/blob/main/QSA.tar -P $dirPATH"
+echo "wget https://github.com/fisinforgh/SoftEduQSA/blob/main/$tarFILE -P $dirPATH"
 echo "Wait..."
 
-(wget -O $dirPATH/$tarFILE https://github.com/fisinforgh/SoftEduQSA/blob/main/QSA.tar) | zenity --progress --width=400 --height=200 --auto-close \ ###Barra de progreso
+(wget -O $dirPATH/$tarFILE https://github.com/fisinforgh/SoftEduQSA/blob/main/$tarFILE) | zenity --progress --width=400 --height=200 --auto-close \ ###Barra de progreso
 										     --title="SoftEduQSA Install" \
 										     --text="Downloading SoftEduQSA... Please wait ..." \
 										     --percentage=10
@@ -213,8 +213,8 @@ fi
 
 #----------------------------------------------------------------------------------------------------------------------------#
 
-nameDIR="SoftEduQSA"
-FILE="QSASoftEdu"
+nameDIR="QSA"
+FILE="SoftEduQSA"
 
 cd $dirPATH
 

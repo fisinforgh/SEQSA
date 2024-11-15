@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/home/andres/QSA/SoftEduQSA
+Icon=/home/andres/QSA/ICONS/IconoQSA1.png
+Terminal=false
+Name=QSA
+Comment=An object-oriented data analysis framework
+MimeType=application/x-root;text/x-c++src;
+Categories=Science;

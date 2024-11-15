@@ -88,8 +88,8 @@ echo "Home folder: $homeDIR/"
 echo " "
 
 hiddenFILE=".pathDIR_SoftEduQSA.txt"
-dirNAME="SoftEduQSA"
-tarFILE="SoftEduQSA.tar"
+dirNAME="QSA"
+tarFILE="QSA.tar"
 pathINSTALL=$(echo "$homeDIR$sep$hiddenFILE")
 	   
 #----------------------------------------------------------------------------------------------------------------------------#

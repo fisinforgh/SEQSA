@@ -77,8 +77,8 @@ manUNIS=$( echo "Remove SoftEduQSA manually:"
 	   echo "Go to the desktop folder and remove:"
 	   echo "  $dirNAME.desktop"
 	   echo "Go to hidden file \".bash_aliases\" and remove this two lines:"
-	   #echo "# SoftEduQSA globally available executable "
-	   #echo "export PATH=\"/home/fisinfor/test_v2/:\$PATH")
+	   echo "# SoftEduQSA globally available executable "
+	   echo "export PATH=\"/home/fisinfor/test_v2/SoftEduQSA:\$PATH")
 	   
 #----------------------------------------------------------------------------------------------------------------------------#
 
@@ -88,8 +88,8 @@ echo "Home folder: $homeDIR/"
 echo " "
 
 hiddenFILE=".pathDIR_SoftEduQSA.txt"
-dirNAME="SoftEduQSA"
-tarFILE="SoftEduQSA.tar"
+dirNAME="QSA"
+tarFILE="QSA.tar"
 pathINSTALL=$(echo "$homeDIR$sep$hiddenFILE")
 	   
 #----------------------------------------------------------------------------------------------------------------------------#
