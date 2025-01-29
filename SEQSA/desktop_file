@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/home/andres/SEQSA/SEQSA
+Icon=/home/andres/SEQSA/ICONS/IconoQSA1.png
+Terminal=false
+Name=SEQSA
+Comment=An object-oriented data analysis framework
+MimeType=application/x-root;text/x-c++src;
+Categories=Science;
