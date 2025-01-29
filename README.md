@@ -1,1 +1,1 @@
-Quantum Shor Algorithm Software Education
+Software Education Quantum Shor Algorithm SEQSA
